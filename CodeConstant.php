@@ -1,10 +1,10 @@
 <?php
 
 
-namespace App\Constants;
+namespace YaangVu\Constant;
 
 
-class UserConstants
+class CodeConstant
 {
     const SID = "sid";
     const UID = "uid";

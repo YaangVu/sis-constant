@@ -1,10 +1,10 @@
 <?php
 
 
-namespace App\Constants;
+namespace YaangVu\Constant;
 
 
-class RoleConstants
+class RoleConstant
 {
     const ADMIN                = 'Admin';
     const TEACHING_ASSISTANT   = 'Teaching assistant';
