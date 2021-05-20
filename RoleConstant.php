@@ -16,5 +16,5 @@ class RoleConstant
     const STUDENT              = 'Student';
     const FAMILY               = 'Family';
     const STAFF                = 'Staff';
-    const Student_AND_FAMILY   = 'Student And Family';
+    const STUDENT_AND_FAMILY   = 'Student And Family';
 }
