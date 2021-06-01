@@ -6,5 +6,5 @@ namespace YaangVu\Constant;
 
 class RedisConstant
 {
-    const TIME_TO_LIVE = 60;
+    const TTL = 60; // Time to live
 }
