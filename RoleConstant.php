@@ -17,4 +17,5 @@ class RoleConstant
     const FAMILY               = 'Family';
     const STAFF                = 'Staff';
     const STUDENT_AND_FAMILY   = 'Student And Family';
+    const DEFAULT_ROLE         = 'default';
 }
