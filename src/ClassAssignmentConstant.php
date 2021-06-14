@@ -6,7 +6,8 @@ namespace YaangVu\Constant;
 
 class ClassAssignmentConstant
 {
-    const STUDENT            = 'Student';
-    const TEACHER            = 'Teacher';
-    const TEACHING_ASSISTANT = 'Teaching assistant';
+    const GUEST             = 'Guest';
+    const STUDENT           = 'Student';
+    const PRIMARY_TEACHER   = 'Primary Teacher';
+    const SECONDARY_TEACHER = 'Secondary Teacher';
 }
