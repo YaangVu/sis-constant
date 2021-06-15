@@ -11,6 +11,6 @@ class StatusConstant
     const PENDING   = 'Pending';
     const ARCHIVED  = 'Archived';
     const DELETED   = 'Deleted';
-    const ONGOING   = 'On-going';
+    const ON_GOING  = 'On-going';
     const CONCLUDED = 'Concluded';
 }
