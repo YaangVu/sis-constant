@@ -8,4 +8,5 @@ class LmsSystemConstant
 {
     const EDMENTUM = "edmentum";
     const AGILIX   = "agilix";
+    const SIS      = 'sis';
 }
