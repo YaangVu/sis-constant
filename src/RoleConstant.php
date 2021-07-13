@@ -16,6 +16,7 @@ class RoleConstant
     const STUDENT              = 'Student';
     const FAMILY               = 'Family';
     const STAFF                = 'Staff';
+    const COACHING             = 'Coaching';
     const STUDENT_AND_FAMILY   = 'Student And Family';
     const DEFAULT_ROLE         = 'default';
 }
