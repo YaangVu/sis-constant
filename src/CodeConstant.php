@@ -16,4 +16,18 @@ class CodeConstant
     const PID   = "pr_id"; // program code
     const EX_ID = 'external_id'; //external system ID
     const LID   = 'lid'; // LMS system ID
+
+    const ALL
+        = [
+            self::UUID,
+            self::SC_ID,
+            self::UID,
+            self::SID,
+            self::CID,
+            self::TID,
+            self::CO_ID,
+            self::PID,
+            self::EX_ID,
+            self::LID
+        ];
 }

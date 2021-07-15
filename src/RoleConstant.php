@@ -19,4 +19,21 @@ class RoleConstant
     const COACHING             = 'Coaching';
     const STUDENT_AND_FAMILY   = 'Student And Family';
     const DEFAULT_ROLE         = 'default';
+
+    const ALL
+        = [
+            self::ADMIN,
+            self::TEACHING_ASSISTANT,
+            self::TEACHER,
+            self::HEADTEACHER,
+            self::PRINCIPAL,
+            self::ACADEMIC_COORDINATOR,
+            self::SYSTEM,
+            self::STUDENT,
+            self::FAMILY,
+            self::STAFF,
+            self::COACHING,
+            self::STUDENT_AND_FAMILY,
+            self::DEFAULT_ROLE
+        ];
 }

@@ -17,4 +17,19 @@ class SubjectRuleConstant
     const   DIFFERENT_PERIOD  = 'different_period';
     const   SAME_TERM         = 'same_term';
     const   DIFFERENT_TERM    = 'different_term';
+
+    const ALL
+        = [
+            self::BEFORE,
+            self::AFTER,
+            self::PRECEDE,
+            self::FOLLOW,
+            self::CONSECUTIVE,
+            self::SAME_TEACHER,
+            self::DIFFERENT_TEACHER,
+            self::SAME_PERIOD,
+            self::DIFFERENT_PERIOD,
+            self::SAME_TERM,
+            self::DIFFERENT_TERM
+        ];
 }

@@ -13,4 +13,15 @@ class StatusConstant
     const DELETED   = 'Deleted';
     const ON_GOING  = 'On-going';
     const CONCLUDED = 'Concluded';
+
+    const ALL
+        = [
+            self::ACTIVE,
+            self::INACTIVE,
+            self::PENDING,
+            self::ARCHIVED,
+            self::DELETED,
+            self::ON_GOING,
+            self::CONCLUDED
+        ];
 }
