@@ -16,7 +16,7 @@ class RoleConstant
     const STUDENT              = 'Student';
     const FAMILY               = 'Family';
     const STAFF                = 'Staff';
-    const COACHING             = 'Coaching';
+    const COACH                = 'Coach';
     const STUDENT_AND_FAMILY   = 'Student And Family';
     const DEFAULT_ROLE         = 'default';
 
@@ -32,7 +32,7 @@ class RoleConstant
             self::STUDENT,
             self::FAMILY,
             self::STAFF,
-            self::COACHING,
+            self::COACH,
             self::STUDENT_AND_FAMILY,
             self::DEFAULT_ROLE
         ];
