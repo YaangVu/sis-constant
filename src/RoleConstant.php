@@ -6,6 +6,7 @@ namespace YaangVu\Constant;
 
 class RoleConstant
 {
+    const GOD                  = 'God';
     const ADMIN                = 'Admin';
     const TEACHING_ASSISTANT   = 'Teaching assistant';
     const TEACHER              = 'Teacher';
@@ -22,6 +23,7 @@ class RoleConstant
 
     const ALL
         = [
+            self::GOD,
             self::ADMIN,
             self::TEACHING_ASSISTANT,
             self::TEACHER,
