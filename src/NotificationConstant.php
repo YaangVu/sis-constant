@@ -12,10 +12,6 @@ class NotificationConstant
     const STAFFID      = '${staffID}';
     const STUDENTID    = '${studentID}';
     const STUDENTGRADE = '${grade}';
-    const CLASSES      = 'Class';
-    const GRADE        = 'Grade';
-    const TERM         = 'Term';
-    const PROGRAM      = 'Program';
 
     const ALL
         = [
