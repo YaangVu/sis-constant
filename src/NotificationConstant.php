@@ -9,9 +9,9 @@ class NotificationConstant
     const USERNAME      = '${username}';
     const EMAIL         = '${email}';
     const FULL_NAME     = '${full_name}';
-    const STAFF_ID      = '${staffID}';
-    const STUDENT_ID    = '${studentID}';
-    const STUDENT_GRADE = '${grade}';
+    const STAFF_ID      = '${staff_id}';
+    const STUDENT_ID    = '${student_id}';
+    const STUDENT_GRADE = '${student_grade}';
 
     const ALL
         = [
