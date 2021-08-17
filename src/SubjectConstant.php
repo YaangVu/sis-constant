@@ -1,6 +1,8 @@
 <?php
 
+
 namespace YaangVu\Constant;
+
 
 class SubjectConstant
 {
