@@ -6,7 +6,7 @@ namespace YaangVu\Constant;
 
 class SubjectConstant
 {
-    const   COMMON            = 'common';
+    const   NORMAL            = 'normal';
     const   HONORS            = 'honors';
     const   ADVANCEDPLACEMENT = 'advanced placement';
 }
