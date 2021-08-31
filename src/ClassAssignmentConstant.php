@@ -18,4 +18,10 @@ class ClassAssignmentConstant
             self::PRIMARY_TEACHER,
             self::SECONDARY_TEACHER
         ];
+
+    const TEACHER
+        = [
+            self::PRIMARY_TEACHER,
+            self::SECONDARY_TEACHER
+        ];
 }
