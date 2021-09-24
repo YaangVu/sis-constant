@@ -58,9 +58,9 @@ class PermissionConstant
         return 'calendar' . ':' . $action;
     }
 
-    public static function announcement(string $action): string
+    public static function communication(string $action): string
     {
-        return 'announcement' . ':' . $action;
+        return 'communication' . ':' . $action;
     }
 
     public static function attendance(string $action): string
