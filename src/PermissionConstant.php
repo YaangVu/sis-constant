@@ -82,4 +82,19 @@ class PermissionConstant
     {
         return 'attendance-report' . ':' . $action;
     }
+
+    public static function graduationStudents(string $action): string
+    {
+        return 'graduation-students' . ':' . $action;
+    }
+
+    public static function sriReport(string $action): string
+    {
+        return 'sri-report' . ':' . $action;
+    }
+
+    public static function sriSmi(string $action): string
+    {
+        return 'sri-smi' . ':' . $action;
+    }
 }

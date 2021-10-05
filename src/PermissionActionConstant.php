@@ -24,4 +24,5 @@ class PermissionActionConstant
     const SEND_ANNOUNCEMENT   = 'send-announcement';
     const COPY                = 'copy';
     const MANAGEMENT_TEMPLATE = 'management-template';
+    const GRADUATION          = 'graduation';
 }
