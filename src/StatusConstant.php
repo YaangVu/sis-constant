@@ -9,6 +9,7 @@ class StatusConstant
     const ACTIVE     = 'Active';
     const INACTIVE   = 'Inactive';
     const PENDING    = 'Pending';
+    const DONE       = 'Done';
     const ARCHIVED   = 'Archived';
     const DELETED    = 'Deleted';
     const ON_GOING   = 'On-going';
@@ -28,5 +29,6 @@ class StatusConstant
             self::STUDYING,
             self::WITHDRAWAL,
             self::GRADUATED,
+            self::DONE
         ];
 }
