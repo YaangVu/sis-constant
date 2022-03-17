@@ -25,4 +25,6 @@ class PermissionActionConstant
     const COPY                = 'copy';
     const MANAGEMENT_TEMPLATE = 'management-template';
     const GRADUATION          = 'graduation';
+    const VIEW_BY_CLASS       = 'view_by_class';
+    const VIEW_BY_DAILY       = 'view_by_daily';
 }
