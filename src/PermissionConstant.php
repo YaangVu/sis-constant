@@ -97,4 +97,14 @@ class PermissionConstant
     {
         return 'sri-smi' . ':' . $action;
     }
+
+    public static function physicalPerformanceMeasures(string $action): string
+    {
+        return 'physical-performance-measures' . ':' . $action;
+    }
+
+    public static function sat(string $action): string
+    {
+        return 'sat' . ':' . $action;
+    }
 }
