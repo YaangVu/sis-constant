@@ -107,4 +107,19 @@ class PermissionConstant
     {
         return 'sat' . ':' . $action;
     }
+
+    public static function act(string $action): string
+    {
+        return 'act' . ':' . $action;
+    }
+
+    public static function sbac(string $action): string
+    {
+        return 'sbac' . ':' . $action;
+    }
+
+    public static function communicationLog(string $action): string
+    {
+        return 'communication-log' . ':' . $action;
+    }
 }
