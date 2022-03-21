@@ -122,4 +122,19 @@ class PermissionConstant
     {
         return 'communication-log' . ':' . $action;
     }
+
+    public static function classActivity(string $action): string
+    {
+        return 'class-activity' . ':' . $action;
+    }
+
+    public static function activity(string $action): string
+    {
+        return 'activity' . ':' . $action;
+    }
+
+    public static function ielts(string $action): string
+    {
+        return 'ielts' . ':' . $action;
+    }
 }

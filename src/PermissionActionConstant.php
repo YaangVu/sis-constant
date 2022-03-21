@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @Author Edogawa Conan
  * @Date   Sep 05, 2021
@@ -27,4 +28,10 @@ class PermissionActionConstant
     const GRADUATION          = 'graduation';
     const VIEW_BY_CLASS       = 'view_by_class';
     const VIEW_BY_DAILY       = 'view_by_daily';
+    const UPDATE_SCORE        = 'update_score'; 
+    const EXPORT_SCORE        = 'export_score';
+    const VIEW_TEST_NAME      = 'view_test_name';
+    const OVERALL             = 'overall';
+    const TOP_BOTTOM          = 'top_bottom';
+    const COMPONENT_SCORE     = 'component_score';
 }
