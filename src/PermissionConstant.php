@@ -138,8 +138,9 @@ class PermissionConstant
         return 'activity' . ':' . $action;
     }
 
-    public static function ielts(string $action): string
+    public static function toefl(string $action): string
     {
-        return 'ielts' . ':' . $action;
+        return 'toefl' . ':' . $action;
     }
+
 }
