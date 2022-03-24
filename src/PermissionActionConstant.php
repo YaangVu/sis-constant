@@ -28,10 +28,11 @@ class PermissionActionConstant
     const GRADUATION          = 'graduation';
     const VIEW_BY_CLASS       = 'view_by_class';
     const VIEW_BY_DAILY       = 'view_by_daily';
-    const UPDATE_SCORE        = 'update-score'; 
+    const UPDATE_SCORE        = 'update-score';
     const EXPORT_SCORE        = 'export-score';
     const VIEW_TEST_NAME      = 'view-test-name';
     const OVERALL             = 'overall';
     const TOP_BOTTOM          = 'top-bottom';
     const COMPONENT_SCORE     = 'component-score';
+    const INDIVIDUAl          = 'individual';
 }
