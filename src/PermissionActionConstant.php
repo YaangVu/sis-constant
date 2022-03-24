@@ -30,9 +30,6 @@ class PermissionActionConstant
     const VIEW_BY_DAILY       = 'view_by_daily';
     const UPDATE_SCORE        = 'update-score';
     const EXPORT_SCORE        = 'export-score';
-    const VIEW_TEST_NAME      = 'view-test-name';
-    const OVERALL             = 'overall';
-    const TOP_BOTTOM          = 'top-bottom';
-    const COMPONENT_SCORE     = 'component-score';
+    const VIEW_OVERALL        = 'view-overall';
     const INDIVIDUAl          = 'individual';
 }
