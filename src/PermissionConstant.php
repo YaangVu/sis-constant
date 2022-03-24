@@ -108,6 +108,11 @@ class PermissionConstant
         return 'sat' . ':' . $action;
     }
 
+    public static function ielts(string $action): string
+    {
+        return 'ielts' . ':' . $action;
+    }
+
     public static function act(string $action): string
     {
         return 'act' . ':' . $action;
