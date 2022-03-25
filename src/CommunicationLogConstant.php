@@ -8,13 +8,13 @@ namespace YaangVu\Constant;
 
 class CommunicationLogConstant
 {
-    const   ZALO      = 'zalo';
-    const   PHONECALL = 'phone call';
-    const   EMAIL     = 'email';
-    const   ZOOM      = 'zoom meeting';
-    const   ACADEMIC  = 'academic';
-    const   BEHAVIOR  = 'behavior';
-    const   OTHER     = 'other';
+    const   ZALO      = 'Zalo';
+    const   PHONECALL = 'Phone-call';
+    const   EMAIL     = 'Email';
+    const   ZOOM      = 'Zoom-meeting';
+    const   ACADEMIC  = 'Academic';
+    const   BEHAVIOR  = 'Behavior';
+    const   OTHER     = 'Other';
 
 
 }
