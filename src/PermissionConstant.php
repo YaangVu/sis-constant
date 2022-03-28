@@ -113,7 +113,7 @@ class PermissionConstant
         return 'individual-assessment' . ':' . $action;
     }
 
-    public function overallAssessment(string $action): string
+    public static function overallAssessment(string $action): string
     {
         return 'overall-assessment' . ':' . $action;
     }
