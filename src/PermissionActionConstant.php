@@ -32,4 +32,6 @@ class PermissionActionConstant
     const EXPORT_SCORE        = 'export-score';
     const VIEW_OVERALL        = 'view-overall';
     const INDIVIDUAl          = 'individual';
+    const VIEW_COMMUNICATION_LOG = 'view-communication-log';
+    const EDIT_COMMUNICATION_LOG = 'edit-communication-log';
 }
