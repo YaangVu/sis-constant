@@ -108,7 +108,7 @@ class PermissionConstant
         return 'activity' . ':' . $action;
     }
 
-    public function individualAssessment(string $action): string
+    public static function individualAssessment(string $action): string
     {
         return 'individual-assessment' . ':' . $action;
     }
