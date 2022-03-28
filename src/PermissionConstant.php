@@ -88,26 +88,6 @@ class PermissionConstant
         return 'graduation-students' . ':' . $action;
     }
 
-    public static function sriReport(string $action): string
-    {
-        return 'sri-report' . ':' . $action;
-    }
-
-    public static function sriSmi(string $action): string
-    {
-        return 'sri-smi' . ':' . $action;
-    }
-
-    public static function classActivity(string $action): string
-    {
-        return 'class-activity' . ':' . $action;
-    }
-
-    public static function activity(string $action): string
-    {
-        return 'activity' . ':' . $action;
-    }
-
     public static function individualAssessment(string $action): string
     {
         return 'individual-assessment' . ':' . $action;
