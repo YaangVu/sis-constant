@@ -98,36 +98,6 @@ class PermissionConstant
         return 'sri-smi' . ':' . $action;
     }
 
-    public static function physicalPerformanceMeasures(string $action): string
-    {
-        return 'physical-performance-measures' . ':' . $action;
-    }
-
-    public static function sat(string $action): string
-    {
-        return 'sat' . ':' . $action;
-    }
-
-    public static function ielts(string $action): string
-    {
-        return 'ielts' . ':' . $action;
-    }
-
-    public static function act(string $action): string
-    {
-        return 'act' . ':' . $action;
-    }
-
-    public static function sbac(string $action): string
-    {
-        return 'sbac' . ':' . $action;
-    }
-
-    public static function communicationLog(string $action): string
-    {
-        return 'communication-log' . ':' . $action;
-    }
-
     public static function classActivity(string $action): string
     {
         return 'class-activity' . ':' . $action;
@@ -138,9 +108,9 @@ class PermissionConstant
         return 'activity' . ':' . $action;
     }
 
-    public static function toefl(string $action): string
+    public static function individualAssessment(string $action): string
     {
-        return 'toefl' . ':' . $action;
+        return 'individual-assessment' . ':' . $action;
     }
 
 }
