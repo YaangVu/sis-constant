@@ -17,6 +17,7 @@ class StatusConstant
     const STUDYING   = 'studying';
     const WITHDRAWAL = 'withdrawal';
     const GRADUATED  = 'graduated';
+    const COMPLETED  = 'completed';
     const ALL
                      = [
             self::ACTIVE,
@@ -29,6 +30,7 @@ class StatusConstant
             self::STUDYING,
             self::WITHDRAWAL,
             self::GRADUATED,
-            self::DONE
+            self::DONE,
+            self::COMPLETED,
         ];
 }
