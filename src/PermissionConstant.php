@@ -98,4 +98,9 @@ class PermissionConstant
         return 'overall-assessment' . ':' . $action;
     }
 
+    public function schedule(string $action): string
+    {
+        return 'schedule' . ':' . $action; 
+    }
+
 }
