@@ -12,10 +12,10 @@ class AttendanceConstant
 
     const ALL
         = [
-            self::EX_ABSENCE,
-            self::UNEX_ABSENCE,
             self::PRESENT,
+            self::EX_ABSENCE,
             self::EX_TARDY,
+            self::UNEX_ABSENCE,
             self::UNEX_TARDY
         ];
 
