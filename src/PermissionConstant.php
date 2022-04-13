@@ -98,4 +98,9 @@ class PermissionConstant
         return 'overall-assessment' . ':' . $action;
     }
 
+    public static function extendedExportation(string $action): string
+    {
+        return 'extended-exportation' . ':' . $action;
+    }
+
 }
