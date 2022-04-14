@@ -103,4 +103,9 @@ class PermissionConstant
         return 'extended-exportation' . ':' . $action;
     }
 
+    public static function studentInformation(string $action): string
+    {
+        return 'student-information' . ':' . $action;
+    }
+
 }
