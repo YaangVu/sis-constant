@@ -108,4 +108,9 @@ class PermissionConstant
         return 'student-information' . ':' . $action;
     }
 
+    public static function behavior(string $action): string
+    {
+        return 'behavior' . ':' . $action;
+    }
+
 }
