@@ -18,6 +18,9 @@ class StatusConstant
     const WITHDRAWAL = 'withdrawal';
     const GRADUATED  = 'graduated';
     const COMPLETED  = 'completed';
+    const GRADUATION = 'graduation';
+    const WITHDRAW   = 'withdraw';
+    const DROPOUT    = 'dropout';
     const ALL
                      = [
             self::ACTIVE,
@@ -32,5 +35,8 @@ class StatusConstant
             self::GRADUATED,
             self::DONE,
             self::COMPLETED,
+            self::GRADUATION,
+            self::WITHDRAW,
+            self::DROPOUT
         ];
 }
