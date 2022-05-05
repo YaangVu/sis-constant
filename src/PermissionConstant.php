@@ -118,4 +118,9 @@ class PermissionConstant
         return 'enrollment' . ':' . $action;
     }
 
+    public static function rosterReport(string $action): string
+    {
+        return 'roster-report' . ':' . $action;
+    }
+
 }
