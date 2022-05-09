@@ -1,7 +1,7 @@
 <?php
 namespace YaangVu\Constant;
 
-class AuthoriredRoleConstant
+class AuthorizedRoleConstant
 {
     const INPUTTER = 'Inputter'; 
     const REVIEW   = 'Review';
