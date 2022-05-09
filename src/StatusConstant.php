@@ -21,6 +21,8 @@ class StatusConstant
     const GRADUATION = 'graduation';
     const WITHDRAW   = 'withdraw';
     const DROPOUT    = 'dropout';
+    const NOREVIEW   = 'No-review'; 
+    const REVIEW     = 'Review';
     const ALL
                      = [
             self::ACTIVE,
@@ -37,6 +39,8 @@ class StatusConstant
             self::COMPLETED,
             self::GRADUATION,
             self::WITHDRAW,
-            self::DROPOUT
+            self::DROPOUT,
+            self::NOREVIEW,
+            self::REVIEW
         ];
 }
