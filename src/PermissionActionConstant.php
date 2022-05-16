@@ -35,5 +35,5 @@ class PermissionActionConstant
     const VIEW_COMMUNICATION_LOG = 'view-communication-log';
     const EDIT_COMMUNICATION_LOG = 'edit-communication-log';
     const SCHEDULE_REPORT        = 'schedule-report';
-
+    const SETTING_PROGRESS_REPORT= 'setting-progress-report';
 }
