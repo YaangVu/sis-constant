@@ -25,6 +25,7 @@ class StatusConstant
     const REVIEW     = 'Review';
     const APPROVE    = 'Approve';
     const REJECT     = 'Reject';
+    const DRAFT      = 'Draft';
     const ALL
                      = [
             self::ACTIVE,
@@ -45,6 +46,7 @@ class StatusConstant
             self::NOREVIEW,
             self::REVIEW,
             self::APPROVE,
-            self::REJECT
+            self::REJECT,
+            self::DRAFT
         ];
 }
