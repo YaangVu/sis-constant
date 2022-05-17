@@ -123,4 +123,9 @@ class PermissionConstant
         return 'roster-report' . ':' . $action;
     }
 
+    public static function progressReport(string $action): string
+    {
+       return 'progress-report' . ':' . $action;
+    }
+
 }
