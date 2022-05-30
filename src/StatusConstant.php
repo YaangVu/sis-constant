@@ -28,6 +28,8 @@ class StatusConstant
     const DRAFT       = 'Draft';
     const OFFICIAL    = 'Official';
     const NOT_APPROVE = 'Not-approve';
+    const ACTIVARED   = 'Activared';
+
     const ALL
                       = [
             self::ACTIVE,
@@ -51,6 +53,7 @@ class StatusConstant
             self::REJECT,
             self::DRAFT,
             self::OFFICIAL,
-            self::NOT_APPROVE
+            self::NOT_APPROVE,
+            self::ACTIVARED
         ];
 }
