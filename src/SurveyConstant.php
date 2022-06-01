@@ -35,6 +35,7 @@ class SurveyConstant
     const  FILTER           = 'filter';
     const  FILTER_ID        = 'filter_id';
     const  FORMAT           = 'format';
+    const  USER             = 'user';
 
     const OBJECT
         = [
@@ -62,6 +63,7 @@ class SurveyConstant
             self::STUDENT_INFO,
             self::PARENT_INFO,
             self::STAFF_INFO,
+            self::USER,
             self::ALL
         ];
 
