@@ -9,10 +9,10 @@ namespace YaangVu\Constant;
 class GuestObjectInviteToZoomConstant
 {
    const CLASSES = "class"; 
-   const USER_INFOMATION = "user-infomation"; 
+   const USER_INFORMATION = "user-information"; 
 
    const ALL = [
       self::CLASSES, 
-      self::USER_INFOMATION
+      self::USER_INFORMATION
    ]; 
 }
