@@ -6,7 +6,7 @@
 
 namespace YaangVu\Constant;
 
-class UserJoinZoomMeeting
+class UserJoinZoomMeetingConstant
 {
    const HOST    = "Host"; 
    const STUDENT = "Student"; 
