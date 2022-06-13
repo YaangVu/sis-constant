@@ -4,7 +4,7 @@
 namespace YaangVu\Constant;
 
 
-class StatusJoinMeetingBeforeHost
+class StatusJoinMeetingBeforeHostConstant
 {
     const ANYTIME = "anytime"; 
     const FIVE_MINUTES = "5"; 
