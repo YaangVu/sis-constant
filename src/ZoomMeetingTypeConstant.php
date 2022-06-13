@@ -4,10 +4,10 @@
 namespace YaangVu\Constant;
 
 
-class RoomMeetingTypeConstant
+class ZoomMeetingTypeConstant
 {
-   const SCHEDULE_MEETING = "Schedule metting";
-   const RECURRING_MEETING = "Recurring metting with fixed time";
+   const SCHEDULE_MEETING = "Schedule meeting";
+   const RECURRING_MEETING = "Recurring meeting with fixed time";
 
     const ALL
         = [
