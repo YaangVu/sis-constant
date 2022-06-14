@@ -29,9 +29,10 @@ class StatusConstant
     const OFFICIAL    = 'Official';
     const NOT_APPROVE = 'Not-approve';
     const ACTIVARED   = 'Activared';
+    const ERROR       = 'Error';
 
     const ALL
-                      = [
+        = [
             self::ACTIVE,
             self::INACTIVE,
             self::PENDING,
@@ -54,6 +55,7 @@ class StatusConstant
             self::DRAFT,
             self::OFFICIAL,
             self::NOT_APPROVE,
-            self::ACTIVARED
+            self::ACTIVARED,
+            self::ERROR
         ];
 }
