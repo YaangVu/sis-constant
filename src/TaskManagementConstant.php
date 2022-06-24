@@ -17,6 +17,9 @@ class TaskManagementConstant
     const IN_PROGRESS        = 'in-progress';
     const CLOSES             = 'closes';
     const RE_OPEN            = 're-open';
+    const INDIVIDUAL         = 'individual';
+    const MAIN_TASK          = 'main-task';
+    const SUB_TASK           = 'sub-task';
 
     const ALL_ACTION
         = [
@@ -26,5 +29,10 @@ class TaskManagementConstant
     const ALL_STATUS
         = [
             self::ASSIGNED, self::DONE, self::IN_PROGRESS, self::CLOSES, self::RE_OPEN
+        ];
+
+    const ALL_TYPE
+        = [
+            self::INDIVIDUAL, self::MAIN_TASK, self::SUB_TASK
         ];
 }
