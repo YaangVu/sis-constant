@@ -128,4 +128,9 @@ class PermissionConstant
        return 'progress-report' . ':' . $action;
     }
 
+    public static function zoomMeeting(string $action): string
+    {
+        return 'zoom-meeting' . ':' . $action;
+    }
+
 }
