@@ -125,12 +125,17 @@ class PermissionConstant
 
     public static function progressReport(string $action): string
     {
-       return 'progress-report' . ':' . $action;
+        return 'progress-report' . ':' . $action;
     }
 
     public static function zoomMeeting(string $action): string
     {
         return 'zoom-meeting' . ':' . $action;
+    }
+
+    public static function taskManagement(string $action): string
+    {
+        return 'task-management' . ':' . $action;
     }
 
 }
