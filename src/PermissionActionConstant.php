@@ -40,4 +40,5 @@ class PermissionActionConstant
     const PROGRESS_REPORT                  = 'progress_report';
     const PROGRESS_SUBMITTED_REPORT        = 'progress_submitted_report';
     const PROGRESS_CENSOR_SUBMITTED_REPORT = 'progress_censor_submitted_report';
+    const SETTING                          = 'setting';
 }
