@@ -12,14 +12,17 @@ class TaskManagementConstant
     const REVIEWED     = 'reviewed';
     const CREATED      = 'created';
     const PARTICIPATED = 'participated';
-    const ASSIGNED           = 'assigned';
-    const DONE               = 'done';
-    const IN_PROGRESS        = 'in-progress';
-    const CLOSES             = 'closes';
-    const RE_OPEN            = 're-open';
-    const INDIVIDUAL         = 'individual';
-    const MAIN_TASK          = 'main-task';
-    const SUB_TASK           = 'sub-task';
+    const ASSIGNED     = 'assigned';
+    const DONE         = 'done';
+    const IN_PROGRESS  = 'in-progress';
+    const CLOSES       = 'closes';
+    const RE_OPEN      = 're-open';
+    const INDIVIDUAL   = 'individual';
+    const MAIN_TASK    = 'main-task';
+    const SUB_TASK     = 'sub-task';
+    const WARNING      = 'waring';
+    const OVERDUE      = 'overdue';
+    const ON_TIME      = 'on-time';
 
     const ALL_ACTION
         = [
@@ -34,5 +37,10 @@ class TaskManagementConstant
     const ALL_TYPE
         = [
             self::INDIVIDUAL, self::MAIN_TASK, self::SUB_TASK
+        ];
+
+    const ALL_TIMELESS
+        = [
+            self::WARNING, self::OVERDUE, self::ON_TIME
         ];
 }
