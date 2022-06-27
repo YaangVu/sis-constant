@@ -8,10 +8,10 @@ namespace YaangVu\Constant;
 
 class TaskManagementConstant
 {
-    const REPORTED_BY_ME     = 'reported_by_me';
-    const REVIEWED_BY_ME     = 'reviewed_by_me';
-    const CREATED_BY_ME      = 'created_by_me';
-    const PARTICIPATED_BY_ME = 'participated_by_me';
+    const REPORTED     = 'reported';
+    const REVIEWED     = 'reviewed';
+    const CREATED      = 'created';
+    const PARTICIPATED = 'participated';
     const ASSIGNED           = 'assigned';
     const DONE               = 'done';
     const IN_PROGRESS        = 'in-progress';
@@ -23,7 +23,7 @@ class TaskManagementConstant
 
     const ALL_ACTION
         = [
-            self::REPORTED_BY_ME, self::REVIEWED_BY_ME, self::CREATED_BY_ME, self::PARTICIPATED_BY_ME
+            self::REPORTED, self::REVIEWED, self::CREATED, self::PARTICIPATED
         ];
 
     const ALL_STATUS
