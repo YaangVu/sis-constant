@@ -23,6 +23,7 @@ class TaskManagementConstant
     const WARNING      = 'waring';
     const OVERDUE      = 'overdue';
     const ON_TIME      = 'on-time';
+    const OWNED        = 'owned';
 
     const ALL_ACTION
         = [

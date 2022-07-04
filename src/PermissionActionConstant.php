@@ -41,4 +41,9 @@ class PermissionActionConstant
     const PROGRESS_SUBMITTED_REPORT        = 'progress_submitted_report';
     const PROGRESS_CENSOR_SUBMITTED_REPORT = 'progress_censor_submitted_report';
     const SETTING                          = 'setting';
+    const ALL_LIST                         = 'all-list';
+    const REPORT                           = 'report';
+    const REPORTED_BY_ME                   = 'reported-by-me';
+    const REVIEWED_BY_ME                   = 'reviewed-by-me';
+    const OWNED_BY_ME                      = 'owned-by-me';
 }

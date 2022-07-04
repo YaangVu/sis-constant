@@ -133,4 +133,14 @@ class PermissionConstant
         return 'zoom-meeting' . ':' . $action;
     }
 
+    public static function survey(string $action): string
+    {
+        return 'survey' . ':' . $action;
+    }
+
+    public static function taskManagement(string $action): string
+    {
+        return 'task-management' . ':' . $action;
+    }
+
 }
