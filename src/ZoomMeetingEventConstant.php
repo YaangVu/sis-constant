@@ -10,8 +10,8 @@ class ZoomMeetingEventConstant
 {
     const LEFT_WAITING_ROOM = 'meeting.participant_left_waiting_room';
     const LEFT_MEETING_ROOM = 'meeting.participant_left';
-    const JOIN_WAITING_ROOM = 'meeting.participant_join_waiting_room';
-    const JOIN_MEETING_ROOM = 'meeting.participant_join';
+    const JOIN_WAITING_ROOM = 'meeting.participant_joined_waiting_room';
+    const JOIN_MEETING_ROOM = 'meeting.participant_joined';
 
     const ALL_EVENTS =
         [
