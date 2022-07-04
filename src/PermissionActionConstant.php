@@ -46,5 +46,5 @@ class PermissionActionConstant
     const REPORTED_BY_ME                   = 'reported-by-me';
     const REVIEWED_BY_ME                   = 'reviewed-by-me';
     const OWNED_BY_ME                      = 'owned-by-me';
-    const UPDATE_REPORT                    = 'update_report';
+    const UPDATE_REPORT                    = 'update-report';
 }
