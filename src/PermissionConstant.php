@@ -143,4 +143,13 @@ class PermissionConstant
         return 'task-management' . ':' . $action;
     }
 
+    public static function chat(string $action): string
+    {
+        return 'chat' . ':' . $action;
+    }
+
+    public static function setting(string $action): string
+    {
+        return 'setting' . ':' . $action;
+    }
 }
