@@ -48,4 +48,5 @@ class PermissionActionConstant
     const OWNED_BY_ME                      = 'owned-by-me';
     const UPDATE_REPORT                    = 'update-report';
     const EXPORT_GRADE_BOOK                = 'export-grade-book';
+    const VIEW_CLASS                       = 'view-class';
 }
