@@ -12,4 +12,6 @@ class ChatConstant
     const MEMBER_PASSWORD = "oFz15bjBemLvoI4Bd0Tc";
     const Count           = 1000;
     const Offset          = 0;
+    const TYPE_DIRECT     = "direct";
+    const TYPE_GROUP      = "group";
 }
