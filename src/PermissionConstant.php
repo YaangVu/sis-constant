@@ -152,4 +152,9 @@ class PermissionConstant
     {
         return 'setting' . ':' . $action;
     }
+
+    public static function smsTemplate(string $action): string
+    {
+        return 'sms-template' . ':' . $action;
+    }
 }
