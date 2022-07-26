@@ -42,4 +42,11 @@ class ChatConstant
             self::FILTER_TEACHER,
             self::FILTER_STUDENT
         ];
+
+    const ALL_TYPE
+        = [
+          self::SUPPORTER,
+          self::TYPE_DIRECT,
+          self::TYPE_GROUP
+        ];
 }
