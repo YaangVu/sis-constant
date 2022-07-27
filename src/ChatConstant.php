@@ -14,6 +14,7 @@ class ChatConstant
     const Offset          = 0;
     const TYPE_DIRECT     = "direct";
     const TYPE_GROUP      = "group";
+    const MEMBER          = "members";
 
     const FILTER_BY_CLASS       = "class";
     const FILTER_BY_TERM        = "term";
