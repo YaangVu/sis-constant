@@ -8,22 +8,23 @@ namespace YaangVu\Constant;
 
 class TaskManagementConstant
 {
-    const REPORTED     = 'reported';
-    const REVIEWED     = 'reviewed';
-    const CREATED      = 'created';
-    const PARTICIPATED = 'participated';
-    const ASSIGNED     = 'assigned';
-    const DONE         = 'done';
-    const IN_PROGRESS  = 'in-progress';
-    const CLOSES       = 'closes';
-    const RE_OPEN      = 're-open';
-    const INDIVIDUAL   = 'individual';
-    const MAIN_TASK    = 'main-task';
-    const SUB_TASK     = 'sub-task';
-    const WARNING      = 'waring';
-    const OVERDUE      = 'overdue';
-    const ON_TIME      = 'on-time';
-    const OWNED        = 'owned';
+    const REPORTED      = 'reported';
+    const REVIEWED      = 'reviewed';
+    const CREATED       = 'created';
+    const PARTICIPATED  = 'participated';
+    const ASSIGNED      = 'assigned';
+    const DONE          = 'done';
+    const IN_PROGRESS   = 'in-progress';
+    const CLOSES        = 'closes';
+    const RE_OPEN       = 're-open';
+    const INDIVIDUAL    = 'individual';
+    const MAIN_TASK     = 'main-task';
+    const SUB_TASK      = 'sub-task';
+    const WARNING       = 'waring';
+    const OVERDUE       = 'overdue';
+    const ON_TIME       = 'on-time';
+    const OWNED         = 'owned';
+    const ACCEPTED_TIME = 'accepted-time';
 
     const ALL_ACTION
         = [
