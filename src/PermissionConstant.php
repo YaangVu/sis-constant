@@ -157,4 +157,9 @@ class PermissionConstant
     {
         return 'sms-template' . ':' . $action;
     }
+
+    public static function communicationLogReport(string $action): string
+    {
+        return 'communication-log-report' . ':' . $action;
+    }
 }
