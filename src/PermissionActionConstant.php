@@ -51,4 +51,5 @@ class PermissionActionConstant
     const VIEW_CLASS                       = 'view-class';
     const ADD_GROUP                        = 'add-group';
     const CONFIG                           = 'config';
+    const DIRECT_ALL                       = 'direct-all';
 }
