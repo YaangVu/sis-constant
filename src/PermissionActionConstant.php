@@ -52,4 +52,6 @@ class PermissionActionConstant
     const ADD_GROUP                        = 'add-group';
     const CONFIG                           = 'config';
     const DIRECT_ALL                       = 'direct-all';
+    const SEND_SMS                         = 'send-sms';
+    const LIST_SMS                         = 'list-sms';
 }
