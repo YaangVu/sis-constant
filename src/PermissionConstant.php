@@ -162,4 +162,9 @@ class PermissionConstant
     {
         return 'communication-log-report' . ':' . $action;
     }
+
+    public static function smsSetting(string $action): string
+    {
+        return 'sms-setting' . ':' . $action;
+    }
 }
