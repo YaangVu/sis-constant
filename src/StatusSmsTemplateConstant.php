@@ -8,10 +8,11 @@ namespace YaangVu\Constant;
 
 class StatusSmsTemplateConstant
 {
-    const QUEUE     = "queued";
-    const SENT      = "sent";
-    const DELIVERED = "delivered";
-    const FAILED    = "failed";
+    const QUEUE      = "queued";
+    const SENT       = "sent";
+    const DELIVERED  = "delivered";
+    const FAILED     = "failed";
+    const PROCESSING = "Processing";
 
     const ALl
         = [
@@ -19,5 +20,6 @@ class StatusSmsTemplateConstant
             self::SENT,
             self::DELIVERED,
             self::FAILED,
+            self::PROCESSING,
         ];
 }
