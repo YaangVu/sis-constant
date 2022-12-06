@@ -33,6 +33,7 @@ class StatusConstant
     const ACTIVATED     = 'Activated';
     const NOT_RESPONDED = 'Not responded';
     const RESPONDED     = 'Responded';
+    const CANCEL        = 'Cancel';
 
     const ALL
         = [
@@ -62,6 +63,7 @@ class StatusConstant
             self::ERROR,
             self::ACTIVATED,
             self::NOT_RESPONDED,
-            self::RESPONDED
+            self::RESPONDED,
+            self::CANCEL
         ];
 }
