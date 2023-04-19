@@ -10,10 +10,12 @@ class ProgressReportTypeConstant
 {
     const MONTHLY_REPORT          = 'monthly_report';
     const END_OF_SEMESTER_REPORT  = 'end_of_semester_report';
+    const MIDDLE_TERM             = 'middle_term';
 
     const ALL
         = [
             self::MONTHLY_REPORT,
-            self::END_OF_SEMESTER_REPORT
+            self::END_OF_SEMESTER_REPORT,
+            self::MIDDLE_TERM
         ];
 }
