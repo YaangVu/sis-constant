@@ -13,6 +13,7 @@ class ProgressReportConstant
     const PR_REPORT_HONORS      = 'honors';
     const PR_REPORT_HIGH_SCHOOL = 'high_school';
     const PR_REPORT_ELD         = 'ELD';
+    const PR_REPORT_PREP        = 'igs-prep';
 
     const ALL
         = [
@@ -20,6 +21,7 @@ class ProgressReportConstant
             self::PR_REPORT_STANDARD,
             self::PR_REPORT_HONORS,
             self::PR_REPORT_HIGH_SCHOOL,
-            self::PR_REPORT_ELD
+            self::PR_REPORT_ELD,
+            self::PR_REPORT_PREP,
         ];
 }
